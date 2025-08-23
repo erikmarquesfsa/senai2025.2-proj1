@@ -1,0 +1,27 @@
+/*CLASSE REFERENTE A LOGO DA NAV */
+.logo{
+    width: 160px;
+}
+
+#nav{
+    background: linear-gradient(90deg, rgba(255,255,255,1)0%, rgba(248,193,19,1)100%);
+    box-shadow: 2px 2px 2px 2px #cdcdcd;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+ 
+
+
+/*DETERMINAR TAMANHO DAS IMAGENS CARROSEL*/
+#imgBanner{
+    height: 450px;
+}
+
+/*Seção quem somos*/
+#mainQuemSomos{
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
