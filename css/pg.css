@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@210&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@210&display=swap');
+
 /*CLASSE REFERENTE A LOGO DA NAV */
 .logo{
     width: 160px;
@@ -10,12 +13,27 @@
     top: 0;
     z-index: 2;
 }
- 
+
+#navbarNav ul li a{
+    color:#fff;
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}   
 
 
 /*DETERMINAR TAMANHO DAS IMAGENS CARROSEL*/
 #imgBanner{
     height: 450px;
+}
+
+/*TRATAR CARROSEL*/
+.sectionCarrosel{
+    margin-top: 5px;
 }
 
 /*Seção quem somos*/
@@ -24,4 +42,42 @@
     margin-top: 100px;
     font-size: 24px;
     font-weight: bold;
+}
+
+/*SEÇÃO SERVIÇOS*/
+#blocos{
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+.main-title{
+    color:#000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.destaque-texto{
+    color: #3498db;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.destaque{
+    color: #000000;
+    font-size: 14px;
+    padding: 15px;
+    padding-top: 10px;
+}
+
+.icones{
+    color: #3498db;
+    font-size: 41px;
+    padding-bottom: 10px;
+}
+
+.bt-enviar{
+    width: 100%;
 }
